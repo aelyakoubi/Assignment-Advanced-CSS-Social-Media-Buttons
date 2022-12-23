@@ -1,0 +1,15 @@
+$color-gray: #c3cfe2;
+$color-white:#FFF;
+$color-black:#333;
+$color-aqua: rgb(27, 151, 141);
+$color-liblue:#007bb6;
+$color-tblue: #00aced;
+$color-fblue:#3b5998;
+$color-lpred:#e17b77;
+
+@mixin standFlex {
+  background-color: $color-gray;
+  text-align: center;
+}
+
+

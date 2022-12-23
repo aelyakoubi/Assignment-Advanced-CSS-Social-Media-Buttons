@@ -1,0 +1,78 @@
+nav{
+  position:fixed;
+  float: right;
+  width: 100px;
+  margin: 0px 0px 0px 60px;
+  box-shadow: 2px 2px 8px 0px $color-black;
+}
+
+
+nav li{
+  height: 60px;
+  position:relative;
+  float: right;
+
+}
+
+
+
+nav li a{
+  color:$color-white;
+  display: flex;
+  line-height: 20px;
+  padding-right:0;
+  width: 100px;
+  height: 60px;
+  transition: width 2s;
+  transition-timing-function: ease-out;
+  text-align: center;
+}
+
+nav li a i{
+  position: relative;
+  top: 19px;
+  left: 15px;
+  font-size: 20px;          
+}
+
+
+
+
+ul li a span{
+  text-align: right;
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}
+
+a:hover {
+  z-index:1;
+  width: 320px;
+}
+
+ul li:hover a span{
+  padding-right: 50px;
+  display: block;
+}
+
+
+nav li:nth-child(1) a{
+  background:$color-lpred;
+}
+
+nav li:nth-child(2) a{
+  background: $color-tblue;
+}
+
+nav li:nth-child(3) a{
+  background: $color-liblue;
+}
+nav li:nth-child(4) a{
+  background: $color-fblue;          
+} 
+
+nav li:nth-child(5) a{
+  background:$color-black;
+}
