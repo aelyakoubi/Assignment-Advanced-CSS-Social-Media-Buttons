@@ -8,6 +8,8 @@ Download for VSC ```Live server```, ``` Go Live```
 
 ----------------------------------------------------
 
+```This exercise is purely made for the movable social media buttons and NOT for styling the PAGE !```
+
 https://github.com/aelyakoubi/Assignment-Advanced-CSS-Social-Media-Buttons/assets/115151631/235c4f95-7ad1-4f93-b7f8-ee965c56bd9e
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
